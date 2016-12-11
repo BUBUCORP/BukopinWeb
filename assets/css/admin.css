@@ -1,0 +1,219 @@
+html,body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+*{
+	border-radius: 0px!important;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	color:#616161;
+	font-size: 12px;
+	width: 100%;
+	height: 100%;
+	background: #f2f2f2;
+}
+table a{color:red}
+a,:hover{
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+.tr{text-align: right}
+.label, .label a {color:#fff;}
+.form-control:focus{border:1px solid #333!important;}
+input,select,textarea{
+	border-radius: 0!important;
+	border-radius: 0!important;
+	box-shadow: none!important;
+	font-size: 12px!important;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+#loader{
+	position: absolute;
+	width: 100px;
+	height:100px;
+	z-index: 1000;
+	left:50%;
+	top:50%;
+	margin-left: -50px;
+	margin-top:-50px;
+}
+.box-modul{
+	padding: 15px;
+	background: #0071BC;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+}
+.box-modul:hover{
+	background:#049347;
+	color: #fff;
+}
+.box-modul span{
+	margin-left: 10px;
+	font-size :18px;
+}
+.btn,button{
+	font-size: 12px!important;
+	border: none!important;
+	border-radius: 0px!important;
+}
+.btn-blue{
+	background: #0071BC;
+  color: #fff;
+}
+.btn-black{
+	background: #000000;
+	color: #ffffff;
+}
+.cke_chrome{
+	box-shadow: none!important;
+	border: 1px solid #ddd!important;
+}
+.cke_top,.cke_bottom{
+	background: #fff!important;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+	background: #000!important;
+	border: 1px solid #000!important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+	background:#0071BC!important;
+	color: #fff;
+	border: none!important;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected]{
+	background: #09BDF9!important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove{
+	color: #fff!important;
+}
+.fulllogin{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+.login{
+	background: #fff;
+	padding: 30px;
+	color: #333;
+	border: 1px solid #333;
+}
+.login a{
+	color: #333;
+}
+.login input{
+	background: transparent!important;
+	border:none!important;
+	border-bottom: 1px solid #ccc!important;
+}
+.btn-yellow{
+	background: #ffcc00;
+}
+.light{font-weight: 300;}
+
+.pad15{padding: 15px 0}
+.pad30{padding: 30px 0}
+.pad60{padding: 60px 0}
+.navbar{
+	margin: 0;
+	background: #0071BC;
+	border: none;
+	border-radius: 0;
+	color:#fff;
+}
+.navbar-default .navbar-nav li a{color: #fff!important;}
+.sidebar{
+	border: 1px solid #ddd;
+}
+.sidebar-logo{
+	padding: 15px;
+	text-align: center;
+}
+.bg-slider{
+	background: url('../images/web/slider1.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 600px;
+}
+.title{
+	background: #fafafa;
+	color: #333;
+	padding: 15px;
+	border: 1px solid #ddd;
+}
+.title a{border: none!important}
+.content{
+	background: #fff;
+	padding: 15px;
+	min-height: 473px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.content input,.content button{
+	border: 1px solid #ddd;
+	border-radius: 0!important;
+}
+
+.nav-pills a{
+	color:#616161;
+}
+.nav-pills>li.active>a{
+	border-left: 15px solid #049347;
+	color: #fff;
+	background-color:#0071BC;
+	box-shadow: 1px 1px 1px #ccc;
+}
+.nav-pills>li.active>a:hover{
+	background: #000;
+}
+
+.nav-pills>li.active>a:focus {
+	color: #fff;
+	background-color:#0372BC;
+}
+
+.nav-pills>li a:hover{
+	background: #e5e5e5;
+	color: #333;
+}
+.margintop20 {
+    margin-top:20px;
+}
+.nav-pills li{
+	border-bottom: 1px solid #ccc;
+}
+.nav-pills li:last-child{
+	border-bottom: none;
+}
+.nav-pills>li>a {
+	border-radius: 0px;
+	background: #fff;
+}
+.nav-stacked>li+li {
+	margin-top: 0px;
+	margin-left: 0;
+}
+
+
+footer{
+	background:#F7F7F7;
+	padding: 15px 0;
+	margin: 120px 0 0 0;
+	color: #616161;
+	border-top: 1px solid #ddd;
+}
+
+@media only screen and (max-width:640px){
+	.tr{text-align: center;}
+	.title h3{text-align:center;margin-bottom: 15px;}
+}
